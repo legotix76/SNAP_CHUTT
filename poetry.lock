@@ -1,0 +1,32 @@
+[[package]]
+category = "main"
+description = "Python Sorted Collections"
+name = "sortedcollections"
+optional = false
+python-versions = "*"
+version = "2.1.0"
+
+[package.dependencies]
+sortedcontainers = "*"
+
+[[package]]
+category = "main"
+description = "Sorted Containers -- Sorted List, Sorted Dict, Sorted Set"
+name = "sortedcontainers"
+optional = false
+python-versions = "*"
+version = "2.4.0"
+
+[metadata]
+content-hash = "ed8c90ef2d19627b20ff8ce9150b79a299732d299305f9bdbdfb0489ac6e8ae8"
+python-versions = "^3.8"
+
+[metadata.files]
+sortedcollections = [
+    {file = "sortedcollections-2.1.0-py3-none-any.whl", hash = "sha256:b07abbc73472cc459da9dd6e2607d73d1f3b9309a32dd9a57fa2c6fa882f4c6c"},
+    {file = "sortedcollections-2.1.0.tar.gz", hash = "sha256:d8e9609d6c580a16a1224a3dc8965789e03ebc4c3e5ffd05ada54a2fed5dcacd"},
+]
+sortedcontainers = [
+    {file = "sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"},
+    {file = "sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88"},
+]
